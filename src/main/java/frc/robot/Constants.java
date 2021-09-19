@@ -10,4 +10,9 @@ package frc.robot;
 * </p>
 */
 public class Constants {
+
+    //nausea
+
+    //can we use a real configuration library + configuration file
+    //i'd recommend dazzleconf
 }

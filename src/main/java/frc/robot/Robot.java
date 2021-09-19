@@ -12,6 +12,8 @@ public class Robot extends TimedRobot {
     @Override
     public void robotPeriodic() {
         // always run the CommandScheduler during periodic
+
+        //static singleton command scheduler :nausea:
         CommandScheduler.getInstance().run();
     }
 
@@ -20,6 +22,7 @@ public class Robot extends TimedRobot {
 
     }
 
+    //not a fan: why do we need this for initialization
     public static Robot win() {
         return new Robot();
     }
